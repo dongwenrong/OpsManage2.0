@@ -594,6 +594,7 @@ def assets_search(request):
                              '全选':'<input type="checkbox" value="{id}" name="ckbox"/>'.format(id=a.id),
                              '资产ID':a.id,
                              '资产类型':assets_type,
+
                              '管理IP':management_ip,
                              '资产编号':name,
                              '设备型号':model,
